@@ -86,13 +86,9 @@ h2, p {
     font-family:cursive;
 }
 
-main p {
+.bigger, main p {
     font-size: 30px;
     color:#783F8E;
-}
-
-.smaller {
-    font-size: 20px;
 }
 
 main a:link {
@@ -111,7 +107,7 @@ main a:active {
     color:silver;
 }
 
-footer p {
+h3 {
     text-align:left;
     font-size: 18px;
     padding: 10px;
