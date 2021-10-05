@@ -1,0 +1,119 @@
+body {
+    background-color: #E0E1E9;
+}
+
+main {
+    font-family:cursive;
+}
+h1, header p {
+    text-align: center;
+    font-family: cursive;
+    color:white;
+    text-shadow: 3px 3px #3C4F76;
+}
+
+h1 {
+    font-size: 55px;
+    padding-top: 40px;
+}
+
+h2 {
+    color: #27187E;
+}
+
+hr {
+    height:3px;
+    width:60%;
+    margin-right: auto;
+    margin-left:auto;
+    margin-top:20px;
+    background-color: dimgray;
+}
+
+h2, header p {
+    font-size: 36px;
+}
+
+.center {
+    margin: auto;
+}
+
+header {
+    background-image: url(images/family.jpg);
+    height:700px;
+    width:1080px;
+    opacity: .4;
+    position:relative;
+}
+
+nav {
+    text-align: right;
+    background-color: #3C4F76;
+    padding: 10px
+}
+
+nav a {
+    font-family:cursive;
+    font-size:20px;
+    padding: 10px;
+}
+
+nav a:link {
+    color: white;
+}
+
+nav a:visited {
+    color:white;
+}
+
+nav a:hover {
+    color:thistle;
+}
+
+nav a:active {
+    color:silver;
+}
+
+
+img {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+h2, p {
+    text-align: center;
+    font-family:cursive;
+}
+
+main p {
+    font-size: 30px;
+    color:#783F8E;
+}
+
+.smaller {
+    font-size: 20px;
+}
+
+main a:link {
+    color:#783F8E;
+}
+
+main a:visited {
+    color:#783F8E;
+}
+
+main a:hover {
+    color:thistle;
+}
+
+main a:active {
+    color:silver;
+}
+
+footer p {
+    text-align:left;
+    font-size: 18px;
+    padding: 10px;
+    color:white
+}
