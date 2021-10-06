@@ -1,50 +1,10 @@
+/* background */
+
 body {
     background-color: #E0E1E9;
 }
 
-main {
-    font-family:cursive;
-}
-h1, header p {
-    text-align: center;
-    font-family: cursive;
-    color:white;
-    text-shadow: 3px 3px #3C4F76;
-}
-
-h1 {
-    font-size: 55px;
-    padding-top: 40px;
-}
-
-h2 {
-    color: #27187E;
-}
-
-hr {
-    height:3px;
-    width:60%;
-    margin-right: auto;
-    margin-left:auto;
-    margin-top:20px;
-    background-color: dimgray;
-}
-
-h2, header p {
-    font-size: 36px;
-}
-
-.center {
-    margin: auto;
-}
-
-header {
-    background-image: url(images/family.jpg);
-    height:700px;
-    width:1080px;
-    opacity: .4;
-    position:relative;
-}
+/* navigation bar */
 
 nav {
     text-align: right;
@@ -74,11 +34,40 @@ nav a:active {
     color:silver;
 }
 
+/* header */
 
-img {
-    width: 500px;
-    display: block;
-    margin: 0 auto;
+header {
+    background-image: url(images/family.jpg);
+    height:700px;
+    width:1080px;
+    opacity: .4;
+    position:relative;
+}
+
+h1, header p {
+    text-align: center;
+    font-family: cursive;
+    color:white;
+    text-shadow: 3px 3px #3C4F76;
+}
+
+h1 {
+    font-size: 55px;
+    padding-top: 40px;
+}
+
+h2, header p {
+    font-size: 36px;
+}
+
+/* main */
+
+main {
+    font-family:cursive;
+}
+
+h2 {
+    color: #27187E;
 }
 
 h2, p {
@@ -86,10 +75,24 @@ h2, p {
     font-family:cursive;
 }
 
+img {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* classes */
+
 .bigger, main p {
     font-size: 30px;
     color:#783F8E;
 }
+
+.center {
+    margin: auto;
+}
+
+/* styled links */
 
 main a:link {
     color:#783F8E;
@@ -106,6 +109,19 @@ main a:hover {
 main a:active {
     color:silver;
 }
+
+/* horizontal ruler */
+
+hr {
+    height:3px;
+    width:60%;
+    margin-right: auto;
+    margin-left:auto;
+    margin-top:20px;
+    background-color: dimgray;
+}
+
+/* footer */
 
 h3 {
     text-align:left;
